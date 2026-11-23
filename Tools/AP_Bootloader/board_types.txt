@@ -517,6 +517,9 @@ AP_HW_Accton_Godwit_GA1        7120
 # please fill gaps in the above ranges rather than adding past ID #7199
 
 
+# Vendor-local ID matching the existing N680 / EFT_EDU bootloader.
+AP_HW_EFT_EDU                       9903
+
 # OpenDroneID enabled boards. Use 10000 + the base board ID
 AP_HW_CubeOrange_ODID               10140
 AP_HW_Pixhawk6_ODID                 10053
