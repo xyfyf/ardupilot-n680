@@ -1,3 +1,16 @@
+# N680 / EFT_EDU
+
+N680 飞控的公开硬件适配，供克隆、编译和二次开发。
+固定使用生产分支最初派生的公开 ArduPilot 基线
+[`aabbe500aa4b682305b3062116edebc3fd0528c6`](https://github.com/ArduPilot/ardupilot/commit/aabbe500aa4b682305b3062116edebc3fd0528c6)，
+保留该基线的公开 ArduPilot 源码及 GPLv3 许可证。
+
+板型为 `EFT_EDU`，Copter 基线版本为 `ArduCopter V4.7.0-dev`。
+本仓库采用独立快照历史，公开范围为板级硬件定义、硬件接口默认值及编译说明。
+请先阅读 [硬件映射和完整编译步骤](libraries/AP_HAL_ChibiOS/hwdef/EFT_EDU/README.md)。
+
+---
+
 # ArduPilot Project
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
